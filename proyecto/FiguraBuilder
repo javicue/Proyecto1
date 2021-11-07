@@ -1,0 +1,21 @@
+public class FiguraBuilder implements Builder{
+    private Figura figura;
+    private ColorFondo colorfondo;
+    private ColorBorde colorborde;
+
+    @override
+    public void SetFigura(Figura figura){
+         this.figura=figura;
+    }
+    @override
+    public  SetColorFondo(ColorFondo colorfondo){
+        this.colorfondo=colorfondo;
+    }
+    @override
+    public  SetColorBorde(ColorBorde colorborde){
+        this.colorborde=colorborde;
+    }
+    public Figura getResult(){
+        return new Figura(figura, colorFondo,colorBorde);
+    }
+}

@@ -1,0 +1,11 @@
+public class ColorFondo(colorFondo){
+    this.colorFondo=colorFondo;
+    String[] ArrayColores={verde,azul,amarillo,gris,negro,naranja};
+    for(color=0;color<ArrayColores.length;color++){
+        if(colorFondo==color){
+            return color;//todo
+        }else{
+          system.out.println("color desconocido");
+        }
+    }
+}

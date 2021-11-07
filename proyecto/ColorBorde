@@ -1,0 +1,11 @@
+public class ColorBorde(colorBorde){
+    this.colorBorde=colorBorde;
+    String[] ArrayColores={verde,azul,amarillo,gris,negro,naranja};
+    for(color=0;color<ArrayColores.length;color++){
+        if(colorBorde==color){
+            return color;//todo
+        }else{
+          system.out.println("color desconocido");
+        }
+    }
+}

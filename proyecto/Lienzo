@@ -1,0 +1,22 @@
+public class Lienzo{
+    public static void main (String [ ] args){
+        Director director= new Director();
+        FiguraBuilder builder= new FiguraBuilder();
+        director.constructCorazon(builder);
+        Figura figura=builder.getResult();
+        System.out.println(figura);
+         
+        
+        Director director= new Director();
+        FiguraBuilder builder= new FiguraBuilder();
+        director.constructRayo(builder);
+        Figura figura=builder.getResult();
+        System.out.println(figura);
+
+        Director director= new Director();
+        FiguraBuilder builder= new FiguraBuilder();
+        director.constructEstrella(builder);
+        Figura figura=builder.getResult();
+        System.out.println(figura);
+    }
+}

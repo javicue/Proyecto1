@@ -1,0 +1,18 @@
+public class Director{
+
+    public void constractCorazon(Builder builder){
+        builder.setFigura(FiguraTipo.Corazon);
+        builder.SetColorFondo(ColorFondo.color);
+        builder.SetColorBorde(ColorBorde.color);
+    }
+    public constructRayo(Builder builder){
+        builder.setFigura(FifuraTipo.Rayo);
+        builder.SetColorFondo(colorFondo.color);
+        builder.SetColorBorde(colorBorde.color)
+    }
+    public constructEstrella(Builder builder){
+        builder.setFigura(FiguraTipo.Estrella);
+        builder.SetColorFondo(colorFondo.color);
+        builder.SetColorBorde(colorBorde.color)
+    }
+}

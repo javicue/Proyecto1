@@ -1,0 +1,26 @@
+public class Figura {
+    private final Figura figura;
+    private final  ColorFondo colorFondo;
+    private final  ColorBorde colorBorde;
+   
+
+    public Figura(figura, colorFondo, colorBorde) {
+        this.figura = figura;
+        this.colorFondo = colorFondo;
+        this.colorBorde = colorBorde;
+    }
+
+    public FiguraTipo getFiguraTipo() {
+        return figura;
+    }
+
+    public Color getColorFondo() {
+        return colorFondo;
+    }
+
+    public Color getColorBorde() {
+        return colorBorde;
+    }
+
+    //setter todo
+}

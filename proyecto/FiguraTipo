@@ -1,0 +1,11 @@
+
+//todo
+public class FiguraTipo(Figura figura){
+   this.figura=figura;
+   String[] ArrayFiguras={corazon,rayo,estrella};
+   for(i=0;i<ArrayFiguras.length;i++){
+       if(figura==i){
+           return i;
+       }
+   }
+}
